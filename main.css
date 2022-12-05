@@ -1,3 +1,80 @@
-img{
-  height: 100px;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  margin-bottom: 30px;
+  margin: 10px;
+}
+
+.text-header{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+}
+
+header img{
+  height: 36px;
+}
+
+#form{
+  display: flex;
+  align-items: center;
+}
+
+#form input{
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(241, 228, 37);
+  margin: 10px;
+}
+
+#form button{
+  background-color: rgb(243, 243, 82);
+  border: 2px solid rgb(116, 115, 115);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(76, 76, 76);
+  font-weight: 700;
+  transition: 100ms ease-in;
+}
+
+#form button:hover{
+  background-color: rgb(246, 246, 123);
+  padding: 12px;
+}
+
+table{
+  margin: 10px;
+  width: 100%;
+}
+ table th{
+  padding: 16px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid black;
+ }
+
+table td{
+  text-align: center;
+  padding: 8px 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
